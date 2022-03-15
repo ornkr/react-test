@@ -1,20 +1,25 @@
-import { LargeLoader } from '@ornikar/kitt';
-import { View, StyleSheet } from 'react-native';
+import { LargeLoader, Typography } from '@ornikar/kitt';
 
-const styles = StyleSheet.create({
-  loader: {
-    ...StyleSheet.absoluteFillObject,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-});
+const LoaderPage = () => (
+  <div className="loader">
+    <div>
+      <LargeLoader />
+    </div>
 
-const Loader = () => (
-  <View style={styles.loader}>
-    <LargeLoader />
-  </View>
+    <Typography.Text
+      base="body-xsmall"
+      color="black-light"
+      className="loading-data-text"
+    >
+      Loading data
+    </Typography.Text>
+  </div>
 );
 
 export default function App() {
-  return <Loader />;
+  return (
+    <Typography.div base="body" className="App">
+      <LoaderPage />
+    </Typography.div>
+  );
 }

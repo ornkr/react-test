@@ -1,7 +1,7 @@
-# Clone react-native branch
+# Clone web branch
 
 ```
-git clone -b react-native git@github.com:ornkr/react-test.git
+git clone -b web git@github.com:ornkr/react-test.git
 ```
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).

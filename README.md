@@ -42,3 +42,11 @@ npm i -g corepack
 corepack enable
 yarn
 ```
+
+## Start the app
+
+Start the app, you should see a loader:
+
+```
+yarn start
+```

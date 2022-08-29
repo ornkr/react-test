@@ -37,7 +37,6 @@
   "scripts": {
     "start": "cross-env KITT_THEME_NAME=late-ocean react-scripts start",
     "build": "cross-env KITT_THEME_NAME=late-ocean react-scripts build",
-    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "lint": "eslint src"
   },

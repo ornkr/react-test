@@ -2,11 +2,13 @@ import { Typography } from '@ornikar/kitt';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import AppWeb from './App.web';
+import AppNative from './App.native';
 
 ReactDOM.render(
   <Typography.div base="body">
-    <App />
+    <AppWeb />
+    {/* <AppNative /> */}
   </Typography.div>,
   document.getElementById('root'),
 );

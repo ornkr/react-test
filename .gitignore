@@ -1,7 +1,13 @@
-# See https://help.github.com/ignore-files/ for more about ignoring files.
+# OSX
+#
+.DS_Store
 
 # dependencies
 /node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+/.npmrc
 
 # testing
 /coverage
@@ -19,3 +25,13 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Dist generated files
+dist
+/lib
+/build
+stats.json
+
+# Expo
+.expo/*
+web-build/

@@ -1,9 +1,9 @@
-import { LargeLoader, Typography } from '@ornikar/kitt';
+import { PageLoader, Typography } from '@ornikar/kitt-universal';
 
 const LoaderPage = () => (
   <div className="loader">
     <div>
-      <LargeLoader />
+      <PageLoader />
     </div>
 
     <Typography.Text

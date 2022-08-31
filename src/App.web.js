@@ -18,8 +18,8 @@ const LoaderPage = () => (
 
 export default function App() {
   return (
-    <Typography.div base="body" className="App">
+    <div className="App">
       <LoaderPage />
-    </Typography.div>
+    </div>
   );
 }

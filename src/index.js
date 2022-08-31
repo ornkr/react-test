@@ -1,4 +1,4 @@
-import { Typography } from '@ornikar/kitt-universal';
+import { KittThemeProvider, Typography } from '@ornikar/kitt-universal';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -12,8 +12,8 @@ const App = AppWeb;
 // const App = AppNative;
 
 ReactDOM.render(
-  <Typography.div base="body">
+  <KittThemeProvider>
     <App />
-  </Typography.div>,
+  </KittThemeProvider>,
   document.getElementById('root'),
 );

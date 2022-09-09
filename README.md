@@ -45,7 +45,7 @@ yarn
 
 ## Choose Web or Native
 
-Comment in src/index.js one of <AppNative /> or <AppWeb />
+Comment in src/index.js one of AppNative or AppWeb
 
 ## Start the app
 

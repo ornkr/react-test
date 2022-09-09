@@ -1,14 +1,14 @@
-import { KittThemeProvider, Typography } from '@ornikar/kitt-universal';
+import { KittThemeProvider } from '@ornikar/kitt-universal';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import AppWeb from './App.web';
 import AppNative from './App.native';
 
-// TODO explain
+// For React technical test, uncomment this next line
 const App = AppWeb;
 
-// TODO explain
+// For React-native technical test, uncomment this next line
 // const App = AppNative;
 
 ReactDOM.render(

@@ -3,7 +3,6 @@ import { View, StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
   loader: {
-    ...StyleSheet.absoluteFillObject,
     justifyContent: 'center',
     alignItems: 'center',
   },

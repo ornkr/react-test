@@ -1,7 +1,7 @@
 import { PageLoader, Typography } from '@ornikar/kitt-universal';
 
 const LoaderPage = () => (
-  <div className="loader">
+  <div>
     <div>
       <PageLoader />
     </div>
@@ -18,7 +18,7 @@ const LoaderPage = () => (
 
 export default function App() {
   return (
-    <div className="App">
+    <div>
       <LoaderPage />
     </div>
   );

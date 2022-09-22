@@ -1,9 +1,8 @@
-import { LargeLoader } from '@ornikar/kitt';
+import { PageLoader } from '@ornikar/kitt-universal';
 import { View, StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
   loader: {
-    ...StyleSheet.absoluteFillObject,
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -11,7 +10,7 @@ const styles = StyleSheet.create({
 
 const Loader = () => (
   <View style={styles.loader}>
-    <LargeLoader />
+    <PageLoader />
   </View>
 );
 

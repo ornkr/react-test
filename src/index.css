@@ -1,4 +1,16 @@
-@import '~@ornikar/kitt/dist/kitt-late-ocean.css';
+@import '~@ornikar/kitt-universal/dist/styles.css';
+
+.loader {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-data-text {
+  margin-top: 16px;
+}
 
 body {
   margin: 0;

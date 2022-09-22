@@ -1,9 +1,9 @@
-import { LargeLoader, Typography } from '@ornikar/kitt';
+import { PageLoader, Typography } from '@ornikar/kitt-universal';
 
 const LoaderPage = () => (
   <div className="loader">
     <div>
-      <LargeLoader />
+      <PageLoader />
     </div>
 
     <Typography.Text
@@ -18,8 +18,8 @@ const LoaderPage = () => (
 
 export default function App() {
   return (
-    <Typography.div base="body" className="App">
+    <div>
       <LoaderPage />
-    </Typography.div>
+    </div>
   );
 }

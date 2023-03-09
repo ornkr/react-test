@@ -1,4 +1,4 @@
-import { PageLoader, Typography } from '@ornikar/kitt-universal';
+import { PageLoader, Typography, View } from '@ornikar/kitt-universal';
 
 const LoaderPage = () => (
   <div className="loader">
@@ -6,13 +6,11 @@ const LoaderPage = () => (
       <PageLoader />
     </div>
 
-    <Typography.Text
-      base="body-xsmall"
-      color="black-light"
-      className="loading-data-text"
-    >
-      Loading data
-    </Typography.Text>
+    <View marginTop="kitt.6">
+      <Typography.Text base="body-xsmall" color="black-light">
+        Loading data...
+      </Typography.Text>
+    </View>
   </div>
 );
 

@@ -41,6 +41,8 @@
     "@types/react-dom": "17.0.11",
     "@types/react-native": "0.66.15",
     "check-package-dependencies": "3.7.0",
+    "eslint": "8.35.0",
+    "eslint-config-react-app": "7.0.1",
     "prettier": "2.5.1",
     "react-native-web": "0.17.5",
     "typescript": "4.5.5"

@@ -8,12 +8,12 @@ const styles = StyleSheet.create({
   },
 });
 
-const Loader = () => (
+const LoadingPage = () => (
   <View style={styles.loader}>
     <PageLoader />
   </View>
 );
 
 export default function App() {
-  return <Loader />;
+  return <LoadingPage />;
 }

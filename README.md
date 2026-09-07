@@ -37,10 +37,6 @@ corepack enable
 yarn
 ```
 
-## Choose Web or Native
-
-Comment in src/index.js one of AppNative or AppWeb
-
 ## Start the app
 
 Start the app, you should see a loader:

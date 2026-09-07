@@ -1,6 +1,5 @@
-import { KittThemeProvider } from '@ornikar/kitt-universal';
-import React from 'react';
-import ReactDOM from 'react-dom';
+import { BumperProvider } from '@ornikar/bumper';
+import { createRoot } from 'react-dom/client';
 import './index.css';
 import AppWeb from './App.web';
 import AppNative from './App.native';
@@ -11,9 +10,8 @@ import AppNative from './App.native';
 // For React-native technical test, uncomment this next line
 const App = AppNative;
 
-ReactDOM.render(
-  <KittThemeProvider>
+createRoot(document.getElementById('root')).render(
+  <BumperProvider>
     <App />
-  </KittThemeProvider>,
-  document.getElementById('root'),
+  </BumperProvider>,
 );

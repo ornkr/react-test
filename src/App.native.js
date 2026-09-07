@@ -1,4 +1,4 @@
-import { PageLoader } from '@ornikar/kitt-universal';
+import { Loader } from '@ornikar/bumper';
 import { View, StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
 
 const LoadingPage = () => (
   <View style={styles.loader}>
-    <PageLoader />
+    <Loader />
   </View>
 );
 

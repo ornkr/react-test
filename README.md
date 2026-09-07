@@ -14,7 +14,7 @@ Open this project with [VS Code](https://code.visualstudio.com/). You should hav
 
 ## Requirements
 
-- Node >= 16.10.0
+- Node >= 22.22.0
 
 ## Install dependencies
 

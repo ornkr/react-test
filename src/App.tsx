@@ -1,4 +1,4 @@
-import { Loader, Typography } from '@ornikar/bumper';
+import { Loader, Typography, View as BumperView } from '@ornikar/bumper';
 import { View, StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
@@ -12,11 +12,11 @@ const LoadingPage = () => (
   <View style={styles.loader}>
     <Loader />
 
-    <View marginTop="$space.24">
+    <BumperView marginTop="$space.24">
       <Typography.Text variant="body-xs" color="$content.base.mid">
         Loading data...
       </Typography.Text>
-    </View>
+    </BumperView>
   </View>
 );
 

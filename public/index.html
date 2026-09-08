@@ -24,6 +24,15 @@
     -->
     <title>React App</title>
 
+    <style>
+      html,
+      body,
+      #root {
+        height: 100%;
+        margin: 0;
+      }
+    </style>
+
     <!-- react-native-reanimated's web build reads the React Native __DEV__ global, which webpack does not define -->
     <script>
       window.__DEV__ = '%NODE_ENV%' !== 'production';
